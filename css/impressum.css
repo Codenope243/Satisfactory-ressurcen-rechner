@@ -22,3 +22,11 @@ body{
     display: flex;
     justify-content: space-between;
 }  
+
+.navbar-button{
+    transform: rotateX(-180deg);
+    margin-top: 30px;
+    padding: 25px;
+    padding-bottom: 50px;
+    
+}
