@@ -73,30 +73,187 @@ const bibliothek={
         ertrag:1,
     },
 
-    Eisenbarren:{
-        produktionszeit:10,
-        ressurse1:4,
-        ertrag:0,
+    modularerRahmen:{
+        produktionszeit:60,
+        ressurse1:3,
+        ressurse2:12,
+        ertrag:2,
     },
 
-    Eisenbarren:{
-        produktionszeit:10,
-        ressurse1:4,
-        ertrag:0,
+    IntelligenteBeschichtung:{
+        produktionszeit:30,
+        ressurse1:1,
+        ressurse2:1,
+        ertrag:1,
     },
 
-    Eisenbarren:{
-        produktionszeit:10,
-        ressurse1:4,
-        ertrag:0,
+    AlienDNAKapsel:{
+        produktionszeit:6,
+        ressurse1:1,
+        ertrag:1,
     },
 
-    Eisenbarren:{
-        produktionszeit:10,
-        ressurse1:4,
-        ertrag:0,
+    Stahlbarren:{
+        produktionszeit:4,
+        ressurse1:3,
+        ressurse2:3,
+        ertrag:3,
     },
 
+    Stahlträger:{
+        produktionszeit:4,
+        ressurse1:4,
+        ertrag:1,
+    },
+
+    Stahlrohre:{
+        produktionszeit:6,
+        ressurse1:3,
+        ertrag:2, 
+    },
+
+    Mehrzweckgerüst:{
+        produktionszeit:24,
+        ressurse1:1,
+        ressurse2:12,
+        ertrag:2,
+    },
+
+    Stahlbetontrager:{
+        produktionszeit:10,
+        ressurse1:4,
+        ressurse2:5,
+        ertrag:1,
+    },
+
+    Stator:{
+        produktionszeit:12,
+        ressurse1:3,
+        ressurse2:8,
+        ertrag:1,
+    },
+
+    Motor:{
+        produktionszeit:12,
+        ressurse1:2,
+        ressurse2:2,
+        ertrag:1,
+    },
+
+    AutomatischeVerkabelung:{
+        produktionszeit:24,
+        ressurse1:1,
+        ressurse2:20,
+        ertrag:1,
+    },
+
+    SchwerermodularerRahmen:{
+        produktionszeit:30,
+        ressurse1:5,
+        ressurse2:15,
+        ressurse3:5,
+        ressurse4:100,
+        ertrag:1,
+    },
+
+    Cateriumbarren:{
+        produktionszeit:4,
+        ressurse1:3,
+        ertrag:1,
+    },
+
+    Turbodraht:{
+        produktionszeit:5,
+        ressurse1:1,
+        ertrag:5,
+    },
+
+    KIBegrenzer:{
+        produktionszeit:12,
+        ressurse1:5,
+        ressurse2:20,
+        ertrag:1,
+    },
+
+    Quarzkristall:{
+        produktionszeit:8,
+        ressurse1:5,
+        ertrag:3,
+    },
+
+    Quarzsand:{
+        produktionszeit:8,
+        ressurse1:3,
+        ertrag:5,
+    },
+//nebenprudukt von kunstof (schweröllrükstand)(1)muss noch hinzugefügt werdern
+    Kunststoff:{
+        produktionszeit:6,
+        ressurse1:3,
+        ertrag:2,
+        
+    },
+//nebenprudukt von Gummi (schweröllrükstand)(2)muss noch hinzugefügt werdern
+    Gummi:{
+        produktionszeit:6,
+        ressurse1:3,
+        ertrag:2,
+    },
+
+    Platine:{
+        produktionszeit:8,
+        ressurse1:2,
+        ressurse2:4,
+        ertrag:1,
+    },
+
+    Computer:{
+        produktionszeit:24,
+        ressurse1:4,
+        ressurse2:4,
+        ressurse3:4,
+        ressurse4:4,
+        ertrag:1,
+    },
+
+    ModularerMotor:{
+        produktionszeit:60,
+        ressurse1:2,
+        ressurse2:15,
+        ressurse3:2,
+        ertrag:1,
+    },
+
+    AdaptiveSteuereinheit:{
+        produktionszeit:120,
+        ressurse1:15,
+        ressurse2:10,
+        ressurse3:2,
+        ressurse4:2,
+        ertrag:2,
+    },
+
+    LeererKanister:{
+        produktionszeit:4,
+        ressurse1:2,
+        ertrag:4,
+    },
+
+    HighspeedAnschluss:{
+        produktionszeit:16,
+        ressurse1:56,
+        ressurse2:10,
+        ressurse3:1,
+        ertrag:1,
+    },
+
+    Quarzoszillator:{
+        produktionszeit:120,
+        ressurse1:36,
+        ressurse2:28,
+        ressurse3:5,
+        ertrag:2,
+    },
 }
 
 let produkt = ""
