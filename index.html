@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>satisfactory planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <script src="javaScript/index.js"></script>
+    
 </head>
 
 <body>
@@ -23,7 +26,7 @@
 <div id="haupt-container">
     <div class="rechen-container">
         <div class="rechen-UI-container">
-            <div class="produktbild-container"> </div>
+            <div onclick="produkteAuswahlEinAusBlenden()" class="produktbild-container"></div>
             <div class="produktmenge-container">
                 <button onclick="produktmengeVerringern()" class="produkt-menge-button">-</button>
                 <input class="produkt-menge-feld" type="number" min="0">
@@ -33,13 +36,76 @@
                 <span class="ressursen-menge"></span>
                 <span class="ressursen-name">Eisenerz</span>
             </div>
-            <div class="strom-info"><span class="strom-info-feld">20MW</span></div>
+            <div class="strom-info-container"><span class="strom-info-feld">20MW</span></div>
             <div class="maschienen-info">
                 <span>Fabrikator...</span>
             </div>
         </div>  
     </div>
+
+<div id="produkte-auswahl-container">
+
+    <table id="produkte-auswahl">
+        <tr>
+            <td><img onclick="produkt='Eisenbarren'" class="produkt-bild" src="bilder/produkt/Eisenbarren.png"></td>
+            <td><img onclick="produkt='Eisenstangen'" class="produkt-bild" src="bilder/produkt/Eisenstangen.png"></td>
+            <td><img onclick="produkt='Eisenplatten'" class="produkt-bild" src="bilder/produkt/Eisenplatten.png"></td>
+            <td><img onclick="produkt='Kupferbarren'" class="produkt-bild" src="bilder/produkt/Kupferbarren.png"></td>
+            <td><img onclick="produkt='Kupferdraht'" class="produkt-bild" src="bilder/produkt/Kupferdraht.png"></td>
+            <td><img onclick="produkt='Kabel'" class="produkt-bild" src="bilder/produkt/Kabel.png"></td>
+        </tr>
+        <tr>
+            <td><img onclick="produkt='Beton'" class="produkt-bild" src="bilder/produkt/Beton.png"></td>
+            <td><img onclick="produkt='Schrauben'" class="produkt-bild" src="bilder/produkt/Schrauben.png"></td>
+            <td><img onclick="produkt='VerstärkteEisenplatten'" class="produkt-bild" src="bilder/produkt/Verstärkte Eisenplatten.png"></td>
+            <td><img onclick="produkt='Fabpatrronen'" class="produkt-bild" src="bilder/produkt/Fabpatrronen.png"></td>
+            <td><img onclick="produkt='Kupferblech'" class="produkt-bild" src="bilder/produkt/Kupferblech.png"></td>
+            <td><img onclick="produkt='Rotoren'" class="produkt-bild" src="bilder/produkt/Rotoren.png"></td>
+        </tr>
+        <tr>
+            <td><img onclick="produkt='modularer Rahmen'" class="produkt-bild" src="bilder/produkt/modularer Rahmen.png"></td>
+            <td><img onclick="produkt='Intelligente Beschichtung'" class="produkt-bild" src="bilder/produkt/Intelligente Beschichtung.png"></td>
+            <td><img onclick="produkt='Alien DNA-Kapsel'" class="produkt-bild" src="bilder/produkt/Alien DNA-Kapsel.png"></td>
+            <td><img onclick="produkt='Stahlbarren'" class="produkt-bild" src="bilder/produkt/Stahlbarren.png"></td>
+            <td><img onclick="produkt='Stahlträger'" class="produkt-bild" src="bilder/produkt/Stahlträger.png"></td>
+            <td><img onclick="produkt='Stahlrohre'" class="produkt-bild" src="bilder/produkt/Stahlrohre.png"></td>
+        </tr>
+        <tr>
+            <td><img onclick="produkt='Mehrzweckgerüst'" class="produkt-bild" src="bilder/produkt/Mehrzweckgerüst.png"></td>
+            <td><img onclick="produkt='Stahlbetontrager'" class="produkt-bild" src="bilder/produkt/Stahlbetontrager.png"></td>
+            <td><img onclick="produkt='Stator'" class="produkt-bild" src="bilder/produkt/Stator.png"></td>
+            <td><img onclick="produkt='Motor'" class="produkt-bild" src="bilder/produkt/Motor.png"></td>
+            <td><img onclick="produkt='Automatische Verkabelung'" class="produkt-bild" src="bilder/produkt/Automatische Verkabelung.png"></td>
+            <td><img onclick="produkt='Schwerer modularer Rahmen'" class="produkt-bild" src="bilder/produkt/Schwerer modularer Rahmen.png"></td>
+        </tr>
+        <tr>
+            <td><img onclick="produkt='Cateriumbarren'" class="produkt-bild" src="bilder/produkt/Cateriumbarren.png"></td>
+            <td><img onclick="produkt='Turbodraht'" class="produkt-bild" src="bilder/produkt/Turbodraht.png"></td>
+            <td><img onclick="produkt='KI-Begrenzer'" class="produkt-bild" src="bilder/produkt/KI-Begrenzer.png"></td>
+            <td><img onclick="produkt='Quarzkristall'" class="produkt-bild" src="bilder/produkt/Quarzkristall.png"></td>
+            <td><img onclick="produkt='Quarzsand'" class="produkt-bild" src="bilder/produkt/Quarzsand.png"></td>
+            <td><img onclick="produkt='Kunststoff'" class="produkt-bild" src="bilder/produkt/Kunststoff.png"></td>
+        </tr>
+        <tr>
+            <td><img onclick="produkt='Gummi'" class="produkt-bild" src="bilder/produkt/Gummi.png"></td>
+            <td><img onclick="produkt='Platine'" class="produkt-bild" src="bilder/produkt/Platine.png"></td>
+            <td><img onclick="produkt='Computer'" class="produkt-bild" src="bilder/produkt/Computer.png"></td>
+            <td><img onclick="produkt='Modularer Motor'" class="produkt-bild" src="bilder/produkt/Modularer Motor.png"></td>
+            <td><img onclick="produkt='Adaptive Steuereinheit'" class="produkt-bild" src="bilder/produkt/Adaptive Steuereinheit.png"></td>
+            <td><img onclick="produkt='Leerer Kanister'" class="produkt-bild" src="bilder/produkt/Leerer Kanister.png"></td>
+        </tr>
+        <tr>
+            <td><img onclick="produkt='Highspeed-Anschluss'" class="produkt-bild" src="bilder/produkt/Highspeed-Anschluss.png"></td>
+            <td><img onclick="produkt='Quarzoszillator'" class="produkt-bild" src="bilder/produkt/Quarzoszillator.png"></td>
+        </tr>
+    </table>
+
+</div>
+
+
+
 </div>
 
 </body>
+<script src="javaScript/index.js"></script>
 </html>
