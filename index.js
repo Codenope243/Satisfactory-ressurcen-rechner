@@ -1,257 +1,295 @@
 const bibliothek={
     Eisenbarren:{
+        bild:"Eisenbarren.png",
         produktionszeit:2,
-        ressurse1:1,
+        ressurce1:1,
         ertrag:1,
     },
 
     Eisenstangen:{
+        bild:"Eisenbarren.png",
         produktionszeit:14,
-        ressurse1:1,
+        ressurce1:1,
         ertrag:1,
     },
 
     Eisenplatten:{
+        bild:"Eisenbarren.png",
         produktionszeit:6,
-        ressurse1:3,
+        ressurce1:3,
         ertrag:2,
     },
 
     Kupferbarren:{
+        bild:"Eisenbarren.png",
         produktionszeit:2,
-        ressurse1:1,
+        ressurce1:1,
         ertrag:1,
     },
 
     Kupferdraht:{
+        bild:"Eisenbarren.png",
         produktionszeit:4,
-        ressurse1:1,
+        ressurce1:1,
         ertrag:2,
     },
 
     Kabel:{
+        bild:"Eisenbarren.png",
         produktionszeit:2,
-        ressurse1:2,
+        ressurce1:2,
         ertrag:1,
     },
 
     Beton:{
+        bild:"Eisenbarren.png",
         produktionszeit:4,
-        ressurse1:3,
+        ressurce1:3,
         ertrag:1,
     },
 
     Schrauben:{
+        bild:"Eisenbarren.png",
         produktionszeit:6,
-        ressurse1:1,
+        ressurce1:1,
         ertrag:4,
     },
 
     VerstärkteEisenplatten:{
+        bild:"Eisenbarren.png",
         produktionszeit:12,
-        ressurse1:6,
-        ressurse2:12,
+        ressurce1:6,
+        ressurce2ressurce2:12,
         ertrag:1,
     },
 
     Fabpatrronen:{
+        bild:"Eisenbarren.png",
         produktionszeit:6,
-        ressurse1:5,
+        ressurce1:5,
         ertrag:10,
     },
 
     Kupferblech:{
+        bild:"Eisenbarren.png",
         produktionszeit:6,
-        ressurse1:2,
+        ressurce1:2,
         ertrag:1,
     },
 
     Rotoren:{
+        bild:"Eisenbarren.png",
         produktionszeit:15,
-        ressurse1:5,
-        ressurse2:25,
+        ressurce1:5,
+        ressurce2ressurce2:25,
         ertrag:1,
     },
 
     modularerRahmen:{
+        bild:"Eisenbarren.png",
         produktionszeit:60,
-        ressurse1:3,
-        ressurse2:12,
+        ressurce1:3,
+        ressurce2ressurce2:12,
         ertrag:2,
     },
 
     IntelligenteBeschichtung:{
+        bild:"Eisenbarren.png",
         produktionszeit:30,
-        ressurse1:1,
-        ressurse2:1,
+        ressurce1:1,
+        ressurce2ressurce2:1,
         ertrag:1,
     },
 
     AlienDNAKapsel:{
+        bild:"Eisenbarren.png",
         produktionszeit:6,
-        ressurse1:1,
+        ressurce1:1,
         ertrag:1,
     },
 
     Stahlbarren:{
+        bild:"Eisenbarren.png",
         produktionszeit:4,
-        ressurse1:3,
-        ressurse2:3,
+        ressurce1:3,
+        ressurce2ressurce2:3,
         ertrag:3,
     },
 
     Stahlträger:{
+        bild:"Eisenbarren.png",
         produktionszeit:4,
-        ressurse1:4,
+        ressurce1:4,
         ertrag:1,
     },
 
     Stahlrohre:{
+        bild:"Eisenbarren.png",
         produktionszeit:6,
-        ressurse1:3,
+        ressurce1:3,
         ertrag:2, 
     },
 
     Mehrzweckgerüst:{
+        bild:"Eisenbarren.png",
         produktionszeit:24,
-        ressurse1:1,
-        ressurse2:12,
+        ressurce1:1,
+        ressurce2ressurce2:12,
         ertrag:2,
     },
 
     Stahlbetontrager:{
+        bild:"Eisenbarren.png",
         produktionszeit:10,
-        ressurse1:4,
-        ressurse2:5,
+        ressurce1:4,
+        ressurce2ressurce2:5,
         ertrag:1,
     },
 
     Stator:{
+        bild:"Eisenbarren.png",
         produktionszeit:12,
-        ressurse1:3,
-        ressurse2:8,
+        ressurce1:3,
+        ressurce2ressurce2:8,
         ertrag:1,
     },
 
     Motor:{
+        bild:"Eisenbarren.png",
         produktionszeit:12,
-        ressurse1:2,
-        ressurse2:2,
+        ressurce1:2,
+        ressurce2ressurce2:2,
         ertrag:1,
     },
 
     AutomatischeVerkabelung:{
+        bild:"Eisenbarren.png",
         produktionszeit:24,
-        ressurse1:1,
-        ressurse2:20,
+        ressurce1:1,
+        ressurce2ressurce2:20,
         ertrag:1,
     },
 
     SchwerermodularerRahmen:{
+        bild:"Eisenbarren.png",
         produktionszeit:30,
-        ressurse1:5,
-        ressurse2:15,
-        ressurse3:5,
-        ressurse4:100,
+        ressurce1:5,
+        ressurce2ressurce2:15,
+        ressurce3:5,
+        ressurce4:100,
         ertrag:1,
     },
 
     Cateriumbarren:{
+        bild:"Eisenbarren.png",
         produktionszeit:4,
-        ressurse1:3,
+        ressurce1:3,
         ertrag:1,
     },
 
     Turbodraht:{
+        bild:"Eisenbarren.png",
         produktionszeit:5,
-        ressurse1:1,
+        ressurce1:1,
         ertrag:5,
     },
 
     KIBegrenzer:{
+        bild:"Eisenbarren.png",
         produktionszeit:12,
-        ressurse1:5,
-        ressurse2:20,
+        ressurce1:5,
+        ressurce2ressurce2:20,
         ertrag:1,
     },
 
     Quarzkristall:{
+        bild:"Eisenbarren.png",
         produktionszeit:8,
-        ressurse1:5,
+        ressurce1:5,
         ertrag:3,
     },
 
     Quarzsand:{
+        bild:"Eisenbarren.png",
         produktionszeit:8,
-        ressurse1:3,
+        ressurce1:3,
         ertrag:5,
     },
 //nebenprudukt von kunstof (schweröllrükstand)(1)muss noch hinzugefügt werdern
     Kunststoff:{
+        bild:"Eisenbarren.png",
         produktionszeit:6,
-        ressurse1:3,
+        ressurce1:3,
         ertrag:2,
         
     },
 //nebenprudukt von Gummi (schweröllrükstand)(2)muss noch hinzugefügt werdern
     Gummi:{
+        bild:"Eisenbarren.png",
         produktionszeit:6,
-        ressurse1:3,
+        ressurce1:3,
         ertrag:2,
     },
 
     Platine:{
+        bild:"Eisenbarren.png",
         produktionszeit:8,
-        ressurse1:2,
-        ressurse2:4,
+        ressurce1:2,
+        ressurce2ressurce2:4,
         ertrag:1,
     },
 
     Computer:{
+        bild:"Eisenbarren.png",
         produktionszeit:24,
-        ressurse1:4,
-        ressurse2:4,
-        ressurse3:4,
-        ressurse4:4,
+        ressurce1:4,
+        ressurce2ressurce2:4,
+        ressurce3:4,
+        ressurce4:4,
         ertrag:1,
     },
 
     ModularerMotor:{
+        bild:"Eisenbarren.png",
         produktionszeit:60,
-        ressurse1:2,
-        ressurse2:15,
-        ressurse3:2,
+        ressurce1:2,
+        ressurce2ressurce2:15,
+        ressurce3:2,
         ertrag:1,
     },
 
     AdaptiveSteuereinheit:{
+        bild:"Eisenbarren.png",
         produktionszeit:120,
-        ressurse1:15,
-        ressurse2:10,
-        ressurse3:2,
-        ressurse4:2,
+        ressurce1:15,
+        ressurce2ressurce2:10,
+        ressurce3:2,
+        ressurce4:2,
         ertrag:2,
     },
 
     LeererKanister:{
+        bild:"Eisenbarren.png",
         produktionszeit:4,
-        ressurse1:2,
+        ressurce1:2,
         ertrag:4,
     },
 
     HighspeedAnschluss:{
+        bild:"Eisenbarren.png",
         produktionszeit:16,
-        ressurse1:56,
-        ressurse2:10,
-        ressurse3:1,
+        ressurce1:56,
+        ressurce2ressurce2:10,
+        ressurce3:1,
         ertrag:1,
     },
 
     Quarzoszillator:{
+        bild:"Eisenbarren.png",
         produktionszeit:120,
-        ressurse1:36,
-        ressurse2:28,
-        ressurse3:5,
+        ressurce1:36,
+        ressurce2ressurce2:28,
+        ressurce3:5,
         ertrag:2,
     },
 }
@@ -270,27 +308,34 @@ setInterval(function() {
     const werte = bibliothek[produkt]
 
     if(werte){
-
+    
+        const bild =werte.bild
         const produktionszeit = werte.produktionszeit
-        const ressurse1 = werte.ressurse1
-        const ressurse2 = werte.ressurse2
+        const ressurce1 = werte.ressurce1
+        const ressurce2 = werte.ressurce2
         const ertrag = werte.ertrag
 
         // Berechne die Gesamtzeit für die Herstellung
         const gesamtzeit = (produktionsmenge * produktionszeit) /60 ;
    
             // Berechne die Gesamtanzahl der benötigten Ressourcen
-            const benötigteressurse1 = produktionsmenge * ressurse1 / ertrag;
-            const benötigteressurse2 = produktionsmenge * ressurse2 / ertrag;
+            const benötigteRessurce1 = produktionsmenge * ressurce1 / ertrag;
+            const benötigteRessurce2  = produktionsmenge * ressurce2 / ertrag;
 
 
-     let ressurssenProMinFeld = document.getElementsByClassName("ressursen-menge")[0]
-     ressurssenProMinFeld.innerHTML = "Pro min:" + benötigteressurse1 
+            const ressourcenProMinFeld = document.getElementsByClassName("produkt-menge-feld")[0];
+            ressourcenProMinFeld.innerHTML = "Pro min:" + benötigteRessurce1;
+            
+            const produktbildContainer = document.querySelector(".produktbild-container");
+            produktbildContainer.style.backgroundImage = "url(hintergrund-bilder/platzhalter.jpg)";
+            
 
     }else{
         console.log("Produkt nicht gefunden in der Bibliothek");
     }
 
+
+    
 }, 100);
 
 
@@ -308,8 +353,10 @@ function produktmengeErhöhen(){
 
 const produkteAuswahlContainer = document.getElementById("produkte-auswahl-container");
 produkteAuswahlContainer.style.visibility = "hidden";
+
 function produkteAuswahlEinAusBlenden() {
     
+    const produkteAuswahlContainer = document.getElementById("produkte-auswahl-container");
     const produktBilder = document.getElementsByClassName("produkt-bild");
 
     if (produkteAuswahlContainer.style.visibility === "hidden") {
