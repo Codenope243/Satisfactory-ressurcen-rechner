@@ -27,7 +27,7 @@ body{
     border-right: 160px solid transparent; 
     display: flex;
     justify-content: space-between;
-   filter: drop-shadow( 0 0 20px rgb(235, 138, 28));
+   filter: drop-shadow( 0 0 20px rgb(235, 69, 28));
 }
 
 .navbar-button{
@@ -84,9 +84,9 @@ box-shadow: 0px -50px 60px 20px rgba(209, 172, 7, 0.836);
     margin-top:25px;
     border-radius: 5px;
     background-image:url('');
-    background-size: cover;
     background-position: center;
     cursor: pointer;
+    background-repeat: no-repeat;
 }
 
 .produktmenge-container{
@@ -108,7 +108,7 @@ box-shadow: 0px -50px 60px 20px rgba(209, 172, 7, 0.836);
     height: 40px;
     text-align: center;
     outline: none;
-
+color: pink;
 }
 
 input[type="number"]::-webkit-inner-spin-button,  
