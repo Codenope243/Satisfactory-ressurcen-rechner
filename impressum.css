@@ -34,5 +34,38 @@ body{
 }
 
 #haupt-container{
-   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  height: 100vh;
+}
+
+.rechen-container{
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    width: 25%;
+    clip-path: polygon(
+        10% 0,
+        90% 0,
+        100% 10%,
+        100% 90%,
+        90% 100%,
+        10% 100%,
+        0 90%,
+        0 10%
+    );
+    background-color: rgb(222, 118, 6);
+}
+
+.rechen-UI-container{
+    width: 100%;
+    height: 60%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
