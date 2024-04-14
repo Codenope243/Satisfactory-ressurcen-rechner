@@ -1,3 +1,5 @@
+
+//Ab hier ist die Bibliothek
 const bibliothek={
     Eisenbarren:{
         bild:"url('bilder/Eisenbarren.png')",
@@ -5,6 +7,10 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Eisenerz ",
         ertrag:1,
+        stromverbrauch:0.3,
+        STprduktionProMin:30,
+        maschiene1:"Miner Mk1",
+        maschiene2:"Schmelzofen"
     },
     
     Eisenstangen:{
@@ -13,6 +19,9 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Eisenbaren ",
         ertrag:1,
+        stromverbrauch:0.53,
+        maschiene1:"schmelzofen",
+        maschiene2:"Konstruktor"
     },
 
     Eisenplatten:{
@@ -21,6 +30,8 @@ const bibliothek={
         ressurce1:3,
         ressurce1Name:" Eisenbaren ",
         ertrag:2,
+        maschiene1:"konstruktor",
+        maschiene2:"Schmelze",
     },
 
     Kupferbarren:{
@@ -29,6 +40,8 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Kupferererz ",
         ertrag:1,
+        maschiene1:" Miner Mk.1 ",
+        maschiene2:" Schmelzofen ",
     },
 
     Kupferdraht:{
@@ -37,6 +50,8 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Kupferbarren ",
         ertrag:2,
+        maschiene1:" Schmelzofen ",
+        maschiene2:" Konstruktion ",
     },
 
     Kabel:{
@@ -45,6 +60,8 @@ const bibliothek={
         ressurce1:2,
         ressurce1Name:" Draht ",
         ertrag:1,
+        maschiene1:"Konstruktor",
+        maschiene2:"Konstruktor",
     },
 
     Beton:{
@@ -53,6 +70,8 @@ const bibliothek={
         ressurce1:3,
         ressurce1Name:" Kalkstein ",
         ertrag:1,
+        maschiene1:"Konstruktor",
+        maschiene2:"Konstruktor",
     },
 
     Schrauben:{
@@ -61,6 +80,8 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Eisenstangen ",
         ertrag:4,
+        maschiene1:"Konstruktor",
+        maschiene2:"Konstruktor",
     },
 
     VerstärkteEisenplatten:{
@@ -71,6 +92,9 @@ const bibliothek={
         ressurce2:12,
         ressurce2Name:" Schrauben ",
         ertrag:1,
+        maschiene1:"Konstruktor",
+        maschiene2:"Konstruktor",
+        maschiene3:"Fabrikator",
     },
 
     Fabpatrronen:{
@@ -79,6 +103,7 @@ const bibliothek={
         ressurce1:5,
         ressurce1Name:" Blütenblätter ",
         ertrag:10,
+        maschiene1:"Konstruktor",
     },
 
     Kupferblech:{
@@ -87,6 +112,8 @@ const bibliothek={
         ressurce1:2,
         ressurce1Name:" Kupferbarren ",
         ertrag:1,
+        maschiene1:"Schmelzofen",
+        maschiene2:"Konstruktor",
     },
 
     Rotoren:{
@@ -97,6 +124,9 @@ const bibliothek={
         ressurce2:25,
         ressurce2Name:" Schrauben ",
         ertrag:1,
+        maschiene1:"Konstruktor",
+        maschiene2:"Konstruktor",
+        maschiene3:"Fabrikator",
     },
 
     modularerRahmen:{
@@ -107,6 +137,9 @@ const bibliothek={
         ressurce2:12,
         ressurce2Name:" Eisenstangen ",
         ertrag:2,
+        maschiene1:"Fabrikator",
+        maschiene2:"Konstruktor",
+        maschiene3:"Fabrikator",
     },
 
     IntelligenteBeschichtung:{
@@ -117,6 +150,9 @@ const bibliothek={
         ressurce2:1,
         ressurce2Name:"Rotoren",
         ertrag:1,
+        maschiene1:"Fabrikator",
+        maschiene2:"Fabrikator",
+        maschiene3:"Fabrikator",
     },
 
     AlienDNAKapsel:{
@@ -125,6 +161,7 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Alien Protein ",
         ertrag:1,
+        maschiene1:"Konstruktor",
     },
 
     Stahlbarren:{
@@ -135,6 +172,9 @@ const bibliothek={
         ressurce2:3,
         ressurce2Name:" Kohle ",
         ertrag:3,
+        maschiene1:"Miner Mk.1",
+        maschiene2:"Miner Mk.1",
+        maschiene3:"Gießerei",
     },
 
     Stahlträger:{
@@ -143,6 +183,9 @@ const bibliothek={
         ressurce1:4,
         ressurce1Name:" Stahlbarren ",
         ertrag:1,
+        maschiene1:"Gießerei",
+        maschiene2:"Konstruktor",
+
     },
 
     Stahlrohre:{
@@ -150,7 +193,9 @@ const bibliothek={
         produktionszeit:6,
         ressurce1:3,
         ressurce1Name:" Stahlbarren ",
-        ertrag:2, 
+        ertrag:2,
+        maschiene1:"Gießerei",
+        maschiene2:"Konstruktior", 
     },
 
     Mehrzweckgerüst:{
@@ -161,6 +206,9 @@ const bibliothek={
         ressurce2:12,
         ressurce2Name:" Stahlträger ",
         ertrag:2,
+        maschiene1:"Fabrikator",
+        maschiene2:"Konstrukto",
+        maschiene3:"Fabrikator",
     },
 
     Stahlbetontrager:{
@@ -171,6 +219,9 @@ const bibliothek={
         ressurce2:5,
         ressurce2Name:" Beton ",
         ertrag:1,
+        maschiene1:"Konstruktor",
+        maschiene2:"Konstruktor",
+        maschiene3:"Fabrikator",
     },
 
     Stator:{
@@ -181,6 +232,9 @@ const bibliothek={
         ressurce2:8,
         ressurce2Name:" Kupferdraht ",
         ertrag:1,
+        maschiene1:"Konstruktor",
+        maschiene2:"Konstruktor",
+        maschiene3:"Fabrikator",
     },
 
     Motor:{
@@ -191,6 +245,9 @@ const bibliothek={
         ressurce2:2,
         ressurce2Name:" Statoren ",
         ertrag:1,
+        maschiene1:"Fabrikator",
+        maschiene2:"Fabrikator",
+        maschiene3:"Fabrikator",
     },
 
     AutomatischeVerkabelung:{
@@ -358,136 +415,177 @@ const bibliothek={
         ertrag:2,
     },
 }
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+//Hier wird beim laden die constante "produkt" auf "Eisenbarren" gesetzt so das am anfang der Eisenbarren ausgewählt ist
 let produkt = ""
 produkt="Eisenbarren"
-
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 setInterval(function() {
-    let produktionsmengeInput = document.getElementsByClassName("produkt-menge-feld")[0];
-    let produktionsmenge = parseFloat(produktionsmengeInput.value);
+    //Hier wird der Produktionsmengen wert ausgelesen und überprüft
+        let produktionsmengeInput = document.getElementsByClassName("produkt-menge-feld")[0];
+        let produktionsmenge = parseFloat(produktionsmengeInput.value);
 
-    if (produktionsmenge < 1) {
-        produktionsmengeInput.value =1;
-    }
+     if (produktionsmenge < 1 || isNaN(produktionsmenge)) {
+            produktionsmengeInput.value = 1;
+            produktionsmenge = 1;
+        }
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    if(isNaN(produktionsmenge)){
-        produktionsmengeInput.value =1;
-    }
-    const werte = bibliothek[produkt]
+//Hier wird die constante "werte" festgelegt auserdem begint hier die if abfrage
 
-    if(werte){
-    
+      const werte = bibliothek[produkt];
+
+    if (werte) {
+        
+    //Ab hier werden die benötigtet ressurcen berechnet
+
+        //Hier werden die constanten aus der Bibliothek ausgelesen und neu definiert
+        const ressurce1 = werte.ressurce1;
+        const ressurce2 = werte.ressurce2;
+        const ressurce3 = werte.ressurce3;
+        const ressurce4 = werte.ressurce4;
+        const ressurce1Name = werte.ressurce1Name;
+        const ressurce2Name = werte.ressurce2Name;
+        const ressurce3Name = werte.ressurce3Name;
+        const ressurce4Name = werte.ressurce4Name;
+        const ertrag = werte.ertrag;
+        
+        //Hier werden die constanten für die text felder festgelegt
+        const ressurce1Menge = document.getElementById("ressurce1-menge");
+        const ressurce2Menge = document.getElementById("ressurce2-menge");
+        const ressurce3Menge = document.getElementById("ressurce3-menge");
+        const ressurce4Menge = document.getElementById("ressurce4-menge");
+       
+        //Hier werden die ressurcen berechnet und eingetragen
+        ressurce1Menge.innerHTML = ressurce1Name + ": " + parseFloat((produktionsmenge * ressurce1 / ertrag).toFixed(2));
+        ressurce2Menge.innerHTML = ressurce2Name + ": " + parseFloat((produktionsmenge * ressurce2 / ertrag).toFixed(2));
+        ressurce3Menge.innerHTML = ressurce3Name + ": " + parseFloat((produktionsmenge * ressurce3 / ertrag).toFixed(2));
+        ressurce4Menge.innerHTML = ressurce4Name + ": " + parseFloat((produktionsmenge * ressurce4 / ertrag).toFixed(2));
+
+        //Hier wird überprüft ob eine ressurce undefiniert ist und angezeigt werden soll
+        if (typeof ressurce2 === "undefined") {
+            ressurce2Menge.style.visibility="hidden"
+        }else{
+            ressurce2Menge.style.visibility = "visible"
+        }
+
+        if (typeof ressurce3 === "undefined") {
+            ressurce3Menge.style.visibility="hidden"
+        }else{
+            ressurce3Menge.style.visibility="visible"
+        }
+
+        if (typeof ressurce4 === "undefined") {
+            ressurce4Menge.style.visibility="hidden"
+        }else{
+            ressurce4Menge.style.visibility="visible"
+        }
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        //Hier werden die constanten für das Produktbild definiert
         const bild = werte.bild
-        const produktionszeit = werte.produktionszeit
-        const ressurce1 = werte.ressurce1
-        const ressurce2 = werte.ressurce2
-        const ressurce3 = werte.ressurce3
-        const ressurce4 = werte.ressurce4
-        const ressurce1Name = werte.ressurce1Name
-        const ressurce2Name = werte.ressurce2Name
-        const ressurce3Name = werte.ressurce3Name
-        const ressurce4Name = werte.ressurce4Name
-        const ertrag = werte.ertrag
+        const produktbildContainer = document.querySelector(".produktbild-container");
+    
+        //Hier wird das Produkt bild eingefügt
+        produktbildContainer.style.backgroundImage = bild;
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+    //Ab hier wird der stromverbrauch berechnet
+        //Hier werden die werte aus der Bibliothek ausgelesen und in einer constante definiert
+        const stromverbrauch = werte.stromverbrauch;
 
-        // Berechne die Gesamtzeit für die Herstellung
-        const gesamtzeit = (produktionsmenge * produktionszeit) /60 ;
-   
-            // Berechne die Gesamtanzahl der benötigten Ressourcen
-            const benötigteRessurce1 = produktionsmenge * ressurce1 / ertrag;
-            const benötigteRessurce2 = produktionsmenge * ressurce2 / ertrag;
-            const benötigteRessurce3 = produktionsmenge * ressurce3 / ertrag;
-            const benötigteRessurce4 = produktionsmenge * ressurce4 / ertrag;
+        //Hier wird die constante für das text feld definiert
+        const stromverbrauchFeld = document.getElementsByClassName("strom-info-feld")[0];
 
-            const benötigteRessurce1Gerundet = parseFloat(benötigteRessurce1.toFixed(2))
-            const benötigteRessurce2Gerundet = parseFloat(benötigteRessurce2.toFixed(2))
-            const benötigteRessurce3Gerundet = parseFloat(benötigteRessurce3.toFixed(2))
-            const benötigteRessurce4Gerundet = parseFloat(benötigteRessurce4.toFixed(2))
+        //Hier wird der Stromverbrauch berechnet und gerundet
+        const gesamterStromverbrauch = stromverbrauch * produktionsmenge;
+        const gesamterStromverbrauchGerundet = Math.ceil(gesamterStromverbrauch);
 
+        //Hier wird der Stromverbrauch eingetragen
+        stromverbrauchFeld.innerHTML = gesamterStromverbrauchGerundet + " MW";
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-            const ressurce1Menge = document.getElementById("ressurce1-menge")
-            const ressurce2Menge = document.getElementById("ressurce2-menge")
-            const ressurce3Menge = document.getElementById("ressurce3-menge")
-            const ressurce4Menge = document.getElementById("ressurce4-menge")
+    //Ab hier werden die Benötigten maschienen berechnet
+        //Hier werden die werte aus der Bibliothek ausgelesen und in einer constante definiert
+        const STprduktionProMin = werte.STprduktionProMin;
+        const maschiene1 = werte.maschiene1;
+        const maschiene2 = werte.maschiene2;
+        const maschiene3 = werte.maschiene3;
+        const maschiene4 = werte.maschiene4;
 
+        //Hier werden die constanten für die text felder definiert
+        const maschienenFeld1 = document.getElementsByClassName("maschienen-feld")[0];
+        const maschienenFeld2 = document.getElementsByClassName("maschienen-feld")[1];
+        const maschienenFeld3 = document.getElementsByClassName("maschienen-feld")[2];
+        const maschienenFeld4 = document.getElementsByClassName("maschienen-feld")[3];
 
-           ressurce1Menge.innerHTML=ressurce1Name +": " + benötigteRessurce1Gerundet
-           ressurce2Menge.innerHTML=ressurce2Name +": "  + benötigteRessurce2Gerundet
-           ressurce3Menge.innerHTML=ressurce3Name +": "  + benötigteRessurce3Gerundet
-           ressurce4Menge.innerHTML=ressurce4Name +": "  + benötigteRessurce4Gerundet
-            
+        //Hier werden die menge an gebrauchter Maschienen berechnet
+        const produktionProMin = produktionsmenge / STprduktionProMin;
+        const gebrauchteMaschienen1 = produktionProMin * maschiene1;
+        const gebrauchteMaschienen1gerundet = Math.ceil(gebrauchteMaschienen1);
 
-            const produktbildContainer = document.querySelector(".produktbild-container");
-            produktbildContainer.style.backgroundImage = bild;
-           
-            if (typeof ressurce2 === "undefined") {
-                ressurce2Menge.style.visibility="hidden"
-            }else{
-                ressurce2Menge.style.visibility = "visible"
-            }
-
-            if (typeof ressurce3 === "undefined") {
-                ressurce3Menge.style.visibility="hidden"
-            }else{
-                ressurce3Menge.style.visibility="visible"
-            }
-
-            if (typeof ressurce4 === "undefined") {
-                ressurce4Menge.style.visibility="hidden"
-            }else{
-                ressurce4Menge.style.visibility="visible"
-            }
-
-
-           
-            
-
+        //Hier wird die menge an gebrauchter Maschienen eingetragen
+        maschienenFeld1.innerHTML = maschiene1 + ": " + gebrauchteMaschienen1gerundet;
+        maschienenFeld2.innerHTML = maschiene2 + ": " + gebrauchteMaschienen1gerundet;
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
     }else{
-        console.log("Produkt nicht gefunden in der Bibliothek");
+        console.log("produkt nicht gefunden")
+    }
+},100);
+    //Hier endent der interval und die "if" abfrage
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
+
+
+//Ab hier sind die functionen für die verringerrung der Prduktionsmenge und der Erhöhung der Produktionsmenge
+    //Hier wird Verringert
+    function produktmengeVerringern(){
+     let produktmengeInput = document.getElementsByClassName("produkt-menge-feld")[0]
+
+      produktmengeInput.value--
     }
 
+    //Hier wird Erhöht
+    produktmengeErhöhen()
+    function produktmengeErhöhen(){
+        let produktmengeInput = document.getElementsByClassName("produkt-menge-feld")[0]
 
+        produktmengeInput.value++
+    }
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-    
-}, 100);
-
-   
-
-function produktmengeVerringern(){
-    let produktmengeInput = document.getElementsByClassName("produkt-menge-feld")[0]
-
-    produktmengeInput.value--
-}
-
-produktmengeErhöhen()
-function produktmengeErhöhen(){
-    let produktmengeInput = document.getElementsByClassName("produkt-menge-feld")[0]
-
-    produktmengeInput.value++
-}
-
-const produkteAuswahlContainer = document.getElementById("produkte-auswahl-container");
-produkteAuswahlContainer.style.visibility = "hidden";
-
-function produkteAuswahlEinAusBlenden() {
-    
+//Ab hier ist alles für die Produkt Auswahl
+    //Hier wird die constante für den Produkte Auswahl Container festgelegt und seine sichtbarkeit wird auf "hidden" gestellt 
     const produkteAuswahlContainer = document.getElementById("produkte-auswahl-container");
-    const produktBilder = document.getElementsByClassName("produkt-bild");
+    produkteAuswahlContainer.style.visibility = "hidden";
 
-    if (produkteAuswahlContainer.style.visibility === "hidden") {
+    //Hier ist die function fürs ein/aus blenden des Auswahl Containers
+    function produkteAuswahlEinAusBlenden() {
+
+     //Hier werden die constanten definiert
+     const produkteAuswahlContainer = document.getElementById("produkte-auswahl-container");
+     const produktBilder = document.getElementsByClassName("produkt-bild");
+
+     //Hier wird der Auswahl Container unsichtbar und sichtbar gemacht
+     //Indem eine if abfrage gemacht wird ob den container unsichtbar ist oder nicht wenn ja dan mach ihn sichtbar
+     if (produkteAuswahlContainer.style.visibility === "hidden") {
         produkteAuswahlContainer.style.visibility = "visible";
 
-        for (let e = 0; e < produktBilder.length; e++) {
+        //Hier wird die transition zeit auf 0.3s gesetzt
+         for (let e = 0; e < produktBilder.length; e++) {
             produktBilder[e].style.transition = "ease 0.3s";
-        }
+         }
 
-        console.log("true")
-    } else {
-        for (let i = 0; i < produktBilder.length; i++) {
-            produktBilder[i].style.transition = "ease 0.0s";
-        }
-        produkteAuswahlContainer.style.visibility = "hidden";
-        
-        console.log("false")
+         console.log("true")
+     } else {
+        //Hier wird die transition zeit auf 0.0s gesetzt und der  container versteckt
+         for (let i = 0; i < produktBilder.length; i++) {
+             produktBilder[i].style.transition = "ease 0.0s";
+         }
+         produkteAuswahlContainer.style.visibility = "hidden";
+        //Hier wird in die Console "false" ausgegeben
+         console.log("false")
+     }
     }
-}
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
