@@ -8,7 +8,7 @@ const bibliothek={
         ressurce1Name:" Eisenerz ",
         ertrag:1,
         stromverbrauch:0.3,
-        STprduktionProMin:30,
+        STproduktionProMin:30,
         maschiene1:"Miner Mk1",
         maschiene2:"Schmelzofen"
     },
@@ -508,7 +508,7 @@ setInterval(function() {
 
     //Ab hier werden die Benötigten maschienen berechnet
         //Hier werden die werte aus der Bibliothek ausgelesen und in einer constante definiert
-        const STprduktionProMin = werte.STprduktionProMin;
+        const STproduktionProMin = werte.STproduktionProMin;
         const maschiene1 = werte.maschiene1;
         const maschiene2 = werte.maschiene2;
         const maschiene3 = werte.maschiene3;
@@ -521,9 +521,8 @@ setInterval(function() {
         const maschienenFeld4 = document.getElementsByClassName("maschienen-feld")[3];
 
         //Hier werden die menge an gebrauchter Maschienen berechnet
-        const produktionProMin = produktionsmenge / STprduktionProMin;
-        const gebrauchteMaschienen1 = produktionProMin * maschiene1;
-        const gebrauchteMaschienen1gerundet = Math.ceil(gebrauchteMaschienen1);
+        const produktionProMin = produktionsmenge / STproduktionProMin;
+        const gebrauchteMaschienen1gerundet = Math.ceil(produktionProMin);
 
         //Hier wird die menge an gebrauchter Maschienen eingetragen
         maschienenFeld1.innerHTML = maschiene1 + ": " + gebrauchteMaschienen1gerundet;
