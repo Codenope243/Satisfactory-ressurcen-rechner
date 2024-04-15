@@ -1,6 +1,66 @@
 
+const maschienenBibliothek={
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+
+    Schmelzofen:{
+        name:"Schmelzofen",
+    },
+
+    Konstruktor:{
+        name:"Konstruktor",
+    },
+
+    Schmelze:{
+        name:"Schmelze",
+    },
+
+    Fabrikator:{
+        name:"Fabrikator",
+    },
+
+    Gießerei:{
+        name:"Gießerei",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+    BohrerMk1:{
+        name:"Bohrer Mk.1",
+    },
+}
+
+
 //Ab hier ist die Bibliothek
-const bibliothek={
+const produktBibliothek={
     Eisenbarren:{
         bild:"url('bilder/Eisenbarren.png')",
         produktionszeit:2,
@@ -9,8 +69,8 @@ const bibliothek={
         ertrag:1,
         stromverbrauch:0.3,
         STproduktionProMin:30,
-        maschiene1:"Miner Mk1",
-        maschiene2:"Schmelzofen"
+        maschiene1:maschienenBibliothek.BohrerMk1.name,
+        maschiene2:maschienenBibliothek.Schmelzofen.name,
     },
     
     Eisenstangen:{
@@ -20,8 +80,8 @@ const bibliothek={
         ressurce1Name:" Eisenbaren ",
         ertrag:1,
         stromverbrauch:0.53,
-        maschiene1:"schmelzofen",
-        maschiene2:"Konstruktor"
+        maschiene1:maschienenBibliothek.Schmelzofen.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name
     },
 
     Eisenplatten:{
@@ -30,8 +90,8 @@ const bibliothek={
         ressurce1:3,
         ressurce1Name:" Eisenbaren ",
         ertrag:2,
-        maschiene1:"konstruktor",
-        maschiene2:"Schmelze",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
+        maschiene2:maschienenBibliothek.Schmelze.name,
     },
 
     Kupferbarren:{
@@ -40,8 +100,8 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Kupferererz ",
         ertrag:1,
-        maschiene1:" Miner Mk.1 ",
-        maschiene2:" Schmelzofen ",
+        maschiene1:maschienenBibliothek.BohrerMk1.name,
+        maschiene2:maschienenBibliothek.Schmelzofen.name,
     },
 
     Kupferdraht:{
@@ -50,8 +110,8 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Kupferbarren ",
         ertrag:2,
-        maschiene1:" Schmelzofen ",
-        maschiene2:" Konstruktion ",
+        maschiene1:maschienenBibliothek.Schmelzofen.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
     },
 
     Kabel:{
@@ -60,8 +120,8 @@ const bibliothek={
         ressurce1:2,
         ressurce1Name:" Draht ",
         ertrag:1,
-        maschiene1:"Konstruktor",
-        maschiene2:"Konstruktor",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
     },
 
     Beton:{
@@ -70,8 +130,8 @@ const bibliothek={
         ressurce1:3,
         ressurce1Name:" Kalkstein ",
         ertrag:1,
-        maschiene1:"Konstruktor",
-        maschiene2:"Konstruktor",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
     },
 
     Schrauben:{
@@ -80,8 +140,8 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Eisenstangen ",
         ertrag:4,
-        maschiene1:"Konstruktor",
-        maschiene2:"Konstruktor",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
     },
 
     VerstärkteEisenplatten:{
@@ -92,9 +152,9 @@ const bibliothek={
         ressurce2:12,
         ressurce2Name:" Schrauben ",
         ertrag:1,
-        maschiene1:"Konstruktor",
-        maschiene2:"Konstruktor",
-        maschiene3:"Fabrikator",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
+        maschiene3:maschienenBibliothek.Fabrikator.name,
     },
 
     Fabpatrronen:{
@@ -103,7 +163,7 @@ const bibliothek={
         ressurce1:5,
         ressurce1Name:" Blütenblätter ",
         ertrag:10,
-        maschiene1:"Konstruktor",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
     },
 
     Kupferblech:{
@@ -113,7 +173,7 @@ const bibliothek={
         ressurce1Name:" Kupferbarren ",
         ertrag:1,
         maschiene1:"Schmelzofen",
-        maschiene2:"Konstruktor",
+        maschiene2:maschienenBibliothek.Konstruktor.name,
     },
 
     Rotoren:{
@@ -124,9 +184,9 @@ const bibliothek={
         ressurce2:25,
         ressurce2Name:" Schrauben ",
         ertrag:1,
-        maschiene1:"Konstruktor",
-        maschiene2:"Konstruktor",
-        maschiene3:"Fabrikator",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
+        maschiene3:maschienenBibliothek.Fabrikator.name,
     },
 
     modularerRahmen:{
@@ -137,9 +197,9 @@ const bibliothek={
         ressurce2:12,
         ressurce2Name:" Eisenstangen ",
         ertrag:2,
-        maschiene1:"Fabrikator",
-        maschiene2:"Konstruktor",
-        maschiene3:"Fabrikator",
+        maschiene1:maschienenBibliothek.Fabrikator.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
+        maschiene3:maschienenBibliothek.Fabrikator.name,
     },
 
     IntelligenteBeschichtung:{
@@ -150,9 +210,9 @@ const bibliothek={
         ressurce2:1,
         ressurce2Name:"Rotoren",
         ertrag:1,
-        maschiene1:"Fabrikator",
-        maschiene2:"Fabrikator",
-        maschiene3:"Fabrikator",
+        maschiene1:maschienenBibliothek.Fabrikator.name,
+        maschiene2:maschienenBibliothek.Fabrikator.name,
+        maschiene3:maschienenBibliothek.Fabrikator.name,
     },
 
     AlienDNAKapsel:{
@@ -161,7 +221,7 @@ const bibliothek={
         ressurce1:1,
         ressurce1Name:" Alien Protein ",
         ertrag:1,
-        maschiene1:"Konstruktor",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
     },
 
     Stahlbarren:{
@@ -172,9 +232,9 @@ const bibliothek={
         ressurce2:3,
         ressurce2Name:" Kohle ",
         ertrag:3,
-        maschiene1:"Miner Mk.1",
-        maschiene2:"Miner Mk.1",
-        maschiene3:"Gießerei",
+        maschiene1:maschienenBibliothek.BohrerMk1.name,
+        maschiene2:maschienenBibliothek.BohrerMk1.name,
+        maschiene3:maschienenBibliothek.Gießerei.name,
     },
 
     Stahlträger:{
@@ -183,8 +243,8 @@ const bibliothek={
         ressurce1:4,
         ressurce1Name:" Stahlbarren ",
         ertrag:1,
-        maschiene1:"Gießerei",
-        maschiene2:"Konstruktor",
+        maschiene1:maschienenBibliothek.Gießerei.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
 
     },
 
@@ -194,8 +254,8 @@ const bibliothek={
         ressurce1:3,
         ressurce1Name:" Stahlbarren ",
         ertrag:2,
-        maschiene1:"Gießerei",
-        maschiene2:"Konstruktior", 
+        maschiene1:maschienenBibliothek.Gießerei.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name, 
     },
 
     Mehrzweckgerüst:{
@@ -206,9 +266,9 @@ const bibliothek={
         ressurce2:12,
         ressurce2Name:" Stahlträger ",
         ertrag:2,
-        maschiene1:"Fabrikator",
-        maschiene2:"Konstrukto",
-        maschiene3:"Fabrikator",
+        maschiene1:maschienenBibliothek.Fabrikator.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
+        maschiene3:maschienenBibliothek.Fabrikator.name,
     },
 
     Stahlbetontrager:{
@@ -219,9 +279,9 @@ const bibliothek={
         ressurce2:5,
         ressurce2Name:" Beton ",
         ertrag:1,
-        maschiene1:"Konstruktor",
-        maschiene2:"Konstruktor",
-        maschiene3:"Fabrikator",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
+        maschiene3:maschienenBibliothek.Fabrikator.name,
     },
 
     Stator:{
@@ -232,9 +292,9 @@ const bibliothek={
         ressurce2:8,
         ressurce2Name:" Kupferdraht ",
         ertrag:1,
-        maschiene1:"Konstruktor",
-        maschiene2:"Konstruktor",
-        maschiene3:"Fabrikator",
+        maschiene1:maschienenBibliothek.Konstruktor.name,
+        maschiene2:maschienenBibliothek.Konstruktor.name,
+        maschiene3:maschienenBibliothek.Fabrikator.name,
     },
 
     Motor:{
@@ -245,9 +305,9 @@ const bibliothek={
         ressurce2:2,
         ressurce2Name:" Statoren ",
         ertrag:1,
-        maschiene1:"Fabrikator",
-        maschiene2:"Fabrikator",
-        maschiene3:"Fabrikator",
+        maschiene1:maschienenBibliothek.Fabrikator.name,
+        maschiene2:maschienenBibliothek.Fabrikator.name,
+        maschiene3:maschienenBibliothek.Fabrikator.name,
     },
 
     AutomatischeVerkabelung:{
@@ -415,6 +475,7 @@ const bibliothek={
         ertrag:2,
     },
 }
+
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //Hier wird beim laden die constante "produkt" auf "Eisenbarren" gesetzt so das am anfang der Eisenbarren ausgewählt ist
@@ -434,7 +495,7 @@ setInterval(function() {
 
 //Hier wird die constante "werte" festgelegt auserdem begint hier die if abfrage
 
-      const werte = bibliothek[produkt];
+      const werte = produktBibliothek[produkt];
 
     if (werte) {
         
@@ -513,6 +574,7 @@ setInterval(function() {
         const maschiene2 = werte.maschiene2;
         const maschiene3 = werte.maschiene3;
         const maschiene4 = werte.maschiene4;
+        const test = werte.test
 
         //Hier werden die constanten für die text felder definiert
         const maschienenFeld1 = document.getElementsByClassName("maschienen-feld")[0];

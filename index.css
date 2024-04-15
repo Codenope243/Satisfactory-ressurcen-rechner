@@ -27,7 +27,7 @@ body{
     border-right: 160px solid transparent; 
     display: flex;
     justify-content: space-between;
-   filter: drop-shadow( 0 0 20px rgb(235, 69, 28));
+   filter: drop-shadow( 0 0 20px rgb(129, 79, 4));
 }
 
 .navbar-button{
@@ -108,7 +108,7 @@ box-shadow: 0px -50px 60px 20px rgba(209, 172, 7, 0.836);
     height: 40px;
     text-align: center;
     outline: none;
-color: pink;
+    color: white;
 }
 
 input[type="number"]::-webkit-inner-spin-button,  
